@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
-  
+
   return (
     <View>
       <Text style={styles.text}>Hi there!!!</Text>
@@ -15,6 +15,9 @@ const HomeScreen = ({ navigation }) => {
       <Button style={styles.buttonPadding}
         onPress={() => navigation.navigate('Image')}
         title='Go to image' />
+      <Button style={styles.buttonPadding}
+        onPress={() => navigation.navigate('Counter')}
+        title='Go to counter' />
 
     </View>
   );

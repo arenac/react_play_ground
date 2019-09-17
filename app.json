@@ -25,6 +25,16 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "isDetached": true,
+    "detach": {
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.11.4-sdk33.0.0-6a4f0f3e-1f1b-4c33-9155-d0237f6d7c34.tar.gz"
+    },
+    "scheme": "exp09382ab9d7ab4c409e218812d629d378",
+    "android": {
+      "package": "android.test",
+      "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
+      "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
     }
   }
 }
