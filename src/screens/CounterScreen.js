@@ -6,7 +6,7 @@ const CounterScreen = () => {
     return(
         <View>
             <Button title="Increase" onPress={() => {
-                setCounter(counter+1);
+                setCounter(counter+2);
                 console.log(counter);
             }}/>
             <Button title="Decrease" onPress={() => {

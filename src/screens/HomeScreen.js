@@ -18,6 +18,9 @@ const HomeScreen = ({ navigation }) => {
       <Button style={styles.buttonPadding}
         onPress={() => navigation.navigate('Counter')}
         title='Go to counter' />
+      <Button style={styles.buttonPadding}
+        onPress={() => navigation.navigate('Color')}
+        title='Go to color' />
 
     </View>
   );
